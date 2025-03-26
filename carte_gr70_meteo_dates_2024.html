@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2bdfc0137d99568440738cc6ddb32837 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2bdfc0137d99568440738cc6ddb32837" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2bdfc0137d99568440738cc6ddb32837 = L.map(
+                "map_2bdfc0137d99568440738cc6ddb32837",
+                {
+                    center: [44.5, 3.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8adcc640bedccade30abd12b7567a078 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var marker_fbee1dd0cafbd5a4f031278dd37f4f56 = L.marker(
+                [45.0449, 3.885],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_4858fe0ce481baab7ee1d6d95e05429e = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_fbee1dd0cafbd5a4f031278dd37f4f56.setIcon(beautify_icon_4858fe0ce481baab7ee1d6d95e05429e);
+        
+    
+        var popup_733bc78d93cc199cc6fab9369bb5053b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c370986b97e1ed45ddbeb2a7766b14a7 = $(`<div id="html_c370986b97e1ed45ddbeb2a7766b14a7" style="width: 100.0%; height: 100.0%;">Le Puy-en-Velay<br><b>Date estimée :</b> 28 Jun 2024<br>Temp. min: 13.0°C<br>Temp. max: 23.0°C</div>`)[0];
+            popup_733bc78d93cc199cc6fab9369bb5053b.setContent(html_c370986b97e1ed45ddbeb2a7766b14a7);
+        
+
+        marker_fbee1dd0cafbd5a4f031278dd37f4f56.bindPopup(popup_733bc78d93cc199cc6fab9369bb5053b)
+        ;
+
+        
+    
+    
+            var marker_e41590ae754e934dcbac1dfa17c0f813 = L.marker(
+                [44.9336, 4.0503],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_40c27f2a8a9acec2d2d8853859ebea97 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_e41590ae754e934dcbac1dfa17c0f813.setIcon(beautify_icon_40c27f2a8a9acec2d2d8853859ebea97);
+        
+    
+        var popup_72f81b7e52e8b5cc2e0e3b9811a03218 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f3fa90518fc12ac4a2d9789dd73561a = $(`<div id="html_6f3fa90518fc12ac4a2d9789dd73561a" style="width: 100.0%; height: 100.0%;">Le Monastier-sur-Gazeille<br><b>Date estimée :</b> 29 Jun 2024<br>Temp. min: 10.0°C<br>Temp. max: 23.0°C</div>`)[0];
+            popup_72f81b7e52e8b5cc2e0e3b9811a03218.setContent(html_6f3fa90518fc12ac4a2d9789dd73561a);
+        
+
+        marker_e41590ae754e934dcbac1dfa17c0f813.bindPopup(popup_72f81b7e52e8b5cc2e0e3b9811a03218)
+        ;
+
+        
+    
+    
+            var marker_05bacef16cac01d7589902991b48b825 = L.marker(
+                [44.8444, 3.9114],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_8d099d2420956662570603a0a981525c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_05bacef16cac01d7589902991b48b825.setIcon(beautify_icon_8d099d2420956662570603a0a981525c);
+        
+    
+        var popup_7524784b0b4f443d3f4d4e8d65c77eaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e37397a41c4fce8df5dc973dc910641 = $(`<div id="html_1e37397a41c4fce8df5dc973dc910641" style="width: 100.0%; height: 100.0%;">Le Bouchet-Saint-Nicolas<br><b>Date estimée :</b> 30 Jun 2024<br>Temp. min: 13.5°C<br>Temp. max: 25.5°C</div>`)[0];
+            popup_7524784b0b4f443d3f4d4e8d65c77eaa.setContent(html_1e37397a41c4fce8df5dc973dc910641);
+        
+
+        marker_05bacef16cac01d7589902991b48b825.bindPopup(popup_7524784b0b4f443d3f4d4e8d65c77eaa)
+        ;
+
+        
+    
+    
+            var marker_9f21740be14706ad6b2ae9d36541e75c = L.marker(
+                [44.7336, 3.8892],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_8295401b1a730cc2ab3173aad88f8cce = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_9f21740be14706ad6b2ae9d36541e75c.setIcon(beautify_icon_8295401b1a730cc2ab3173aad88f8cce);
+        
+    
+        var popup_14a9956f86c0bb8fe37019a211ee1edc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7243c1630dd5eff1837432e485f1a64 = $(`<div id="html_d7243c1630dd5eff1837432e485f1a64" style="width: 100.0%; height: 100.0%;">Pradelles<br><b>Date estimée :</b> 01 Jul 2024<br>Temp. min: 13.0°C<br>Temp. max: 24.8°C</div>`)[0];
+            popup_14a9956f86c0bb8fe37019a211ee1edc.setContent(html_d7243c1630dd5eff1837432e485f1a64);
+        
+
+        marker_9f21740be14706ad6b2ae9d36541e75c.bindPopup(popup_14a9956f86c0bb8fe37019a211ee1edc)
+        ;
+
+        
+    
+    
+            var marker_1dc54aa8a62ec2a9ebeec128ba473c5c = L.marker(
+                [44.6742, 3.7503],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_2c273255b3081b6f6cf953f56ba4e559 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_1dc54aa8a62ec2a9ebeec128ba473c5c.setIcon(beautify_icon_2c273255b3081b6f6cf953f56ba4e559);
+        
+    
+        var popup_031b3d8f78aaa6970015490795e785c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19deab91fd811ad8cbf5f22c1787484b = $(`<div id="html_19deab91fd811ad8cbf5f22c1787484b" style="width: 100.0%; height: 100.0%;">Cheylard-l'Évêque<br><b>Date estimée :</b> 02 Jul 2024<br>Temp. min: 12.0°C<br>Temp. max: 23.0°C</div>`)[0];
+            popup_031b3d8f78aaa6970015490795e785c1.setContent(html_19deab91fd811ad8cbf5f22c1787484b);
+        
+
+        marker_1dc54aa8a62ec2a9ebeec128ba473c5c.bindPopup(popup_031b3d8f78aaa6970015490795e785c1)
+        ;
+
+        
+    
+    
+            var marker_cdfb5f5024dc6f2ead9f57e75a3eb455 = L.marker(
+                [44.65, 3.7167],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_8de0742f14d627d133b946516ef65d2b = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_cdfb5f5024dc6f2ead9f57e75a3eb455.setIcon(beautify_icon_8de0742f14d627d133b946516ef65d2b);
+        
+    
+        var popup_fe9f5aca3bd54217654cb8806a03d13f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c789f7f7e73d7fe8b0d160bacb92a69a = $(`<div id="html_c789f7f7e73d7fe8b0d160bacb92a69a" style="width: 100.0%; height: 100.0%;">Notre-Dame-des-Neiges<br><b>Date estimée :</b> 03 Jul 2024<br>Temp. min: 13.0°C<br>Temp. max: 24.5°C</div>`)[0];
+            popup_fe9f5aca3bd54217654cb8806a03d13f.setContent(html_c789f7f7e73d7fe8b0d160bacb92a69a);
+        
+
+        marker_cdfb5f5024dc6f2ead9f57e75a3eb455.bindPopup(popup_fe9f5aca3bd54217654cb8806a03d13f)
+        ;
+
+        
+    
+    
+            var marker_b18324da65fc160e31784d47b4bb6ade = L.marker(
+                [44.6242, 3.7217],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_00ff5b5429e43e5664695af47532d2af = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_b18324da65fc160e31784d47b4bb6ade.setIcon(beautify_icon_00ff5b5429e43e5664695af47532d2af);
+        
+    
+        var popup_abcd8dd9d2d74c8f85c5ca1863e98a37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2af1fdfe6dc74fdcff5add8bb04b5a1 = $(`<div id="html_b2af1fdfe6dc74fdcff5add8bb04b5a1" style="width: 100.0%; height: 100.0%;">Chasseradès<br><b>Date estimée :</b> 04 Jul 2024<br>Temp. min: 12.8°C<br>Temp. max: 23.8°C</div>`)[0];
+            popup_abcd8dd9d2d74c8f85c5ca1863e98a37.setContent(html_b2af1fdfe6dc74fdcff5add8bb04b5a1);
+        
+
+        marker_b18324da65fc160e31784d47b4bb6ade.bindPopup(popup_abcd8dd9d2d74c8f85c5ca1863e98a37)
+        ;
+
+        
+    
+    
+            var marker_3b49e483c84bf95416a69185349e5dac = L.marker(
+                [44.4836, 3.7506],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_7aec72758af7b04c271716f8806b410d = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_3b49e483c84bf95416a69185349e5dac.setIcon(beautify_icon_7aec72758af7b04c271716f8806b410d);
+        
+    
+        var popup_f4f64fee9c01abafa97ebe97ba8f9de4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_498e105bf97b0d9cc7e1db2a5fd2bba1 = $(`<div id="html_498e105bf97b0d9cc7e1db2a5fd2bba1" style="width: 100.0%; height: 100.0%;">Le Bleymard<br><b>Date estimée :</b> 05 Jul 2024<br>Temp. min: 12.0°C<br>Temp. max: 23.0°C</div>`)[0];
+            popup_f4f64fee9c01abafa97ebe97ba8f9de4.setContent(html_498e105bf97b0d9cc7e1db2a5fd2bba1);
+        
+
+        marker_3b49e483c84bf95416a69185349e5dac.bindPopup(popup_f4f64fee9c01abafa97ebe97ba8f9de4)
+        ;
+
+        
+    
+    
+            var marker_0dd5cfc95817c0dc6755f697c8c9dab4 = L.marker(
+                [44.3653, 3.7417],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_aacf6ff8a5deb6435fde6e76c3d568d2 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_0dd5cfc95817c0dc6755f697c8c9dab4.setIcon(beautify_icon_aacf6ff8a5deb6435fde6e76c3d568d2);
+        
+    
+        var popup_13bb0b0f86a6dd2f45853f4fc1429183 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_433b485c92419418cbedef9dafcb6b11 = $(`<div id="html_433b485c92419418cbedef9dafcb6b11" style="width: 100.0%; height: 100.0%;">Le Pont-de-Montvert<br><b>Date estimée :</b> 06 Jul 2024<br>Temp. min: 12.5°C<br>Temp. max: 24.2°C</div>`)[0];
+            popup_13bb0b0f86a6dd2f45853f4fc1429183.setContent(html_433b485c92419418cbedef9dafcb6b11);
+        
+
+        marker_0dd5cfc95817c0dc6755f697c8c9dab4.bindPopup(popup_13bb0b0f86a6dd2f45853f4fc1429183)
+        ;
+
+        
+    
+    
+            var marker_ec3cef33b676d433cce56cb0d66ba479 = L.marker(
+                [44.3331, 3.645],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_73e1e2a25d98124cf4960ace3fdf34ce = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_ec3cef33b676d433cce56cb0d66ba479.setIcon(beautify_icon_73e1e2a25d98124cf4960ace3fdf34ce);
+        
+    
+        var popup_5609c36629a2f2acca52b39016e173ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e0c07004dcf3b17bd07976fc6ab01fc = $(`<div id="html_6e0c07004dcf3b17bd07976fc6ab01fc" style="width: 100.0%; height: 100.0%;">Bédouès<br><b>Date estimée :</b> 07 Jul 2024<br>Temp. min: 17.0°C<br>Temp. max: 31.0°C</div>`)[0];
+            popup_5609c36629a2f2acca52b39016e173ab.setContent(html_6e0c07004dcf3b17bd07976fc6ab01fc);
+        
+
+        marker_ec3cef33b676d433cce56cb0d66ba479.bindPopup(popup_5609c36629a2f2acca52b39016e173ab)
+        ;
+
+        
+    
+    
+            var marker_0e80d2c527e3ccd322b7a0aa2107783a = L.marker(
+                [44.3244, 3.6533],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_6bf917e5893005c9dbdad3a3420c3d82 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_0e80d2c527e3ccd322b7a0aa2107783a.setIcon(beautify_icon_6bf917e5893005c9dbdad3a3420c3d82);
+        
+    
+        var popup_2fc895c991f801d25014534a7f7e3723 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a89a369370258e2b9230a8574443ab6d = $(`<div id="html_a89a369370258e2b9230a8574443ab6d" style="width: 100.0%; height: 100.0%;">Cassagnas<br><b>Date estimée :</b> 08 Jul 2024<br>Temp. min: 18.0°C<br>Temp. max: 32.0°C</div>`)[0];
+            popup_2fc895c991f801d25014534a7f7e3723.setContent(html_a89a369370258e2b9230a8574443ab6d);
+        
+
+        marker_0e80d2c527e3ccd322b7a0aa2107783a.bindPopup(popup_2fc895c991f801d25014534a7f7e3723)
+        ;
+
+        
+    
+    
+            var marker_596de09594dd44fcc7f014ee05bc7aa5 = L.marker(
+                [44.2022, 3.8433],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_de3c8a5991f15ae2d24944dac85e0df2 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_596de09594dd44fcc7f014ee05bc7aa5.setIcon(beautify_icon_de3c8a5991f15ae2d24944dac85e0df2);
+        
+    
+        var popup_8c84b773c1059a31347db75bc784e1ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f3a8e610b6b9112619c04129e0b1bab = $(`<div id="html_9f3a8e610b6b9112619c04129e0b1bab" style="width: 100.0%; height: 100.0%;">Saint-Étienne-Vallée-Française<br><b>Date estimée :</b> 09 Jul 2024<br>Temp. min: 19.0°C<br>Temp. max: 33.0°C</div>`)[0];
+            popup_8c84b773c1059a31347db75bc784e1ff.setContent(html_9f3a8e610b6b9112619c04129e0b1bab);
+        
+
+        marker_596de09594dd44fcc7f014ee05bc7aa5.bindPopup(popup_8c84b773c1059a31347db75bc784e1ff)
+        ;
+
+        
+    
+    
+            var marker_7275da9782232e9c4c2819915a199b98 = L.marker(
+                [44.1047, 3.8792],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_d8129122f0e46cf01a1d6855e26f35bc = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_7275da9782232e9c4c2819915a199b98.setIcon(beautify_icon_d8129122f0e46cf01a1d6855e26f35bc);
+        
+    
+        var popup_25f7696e18de7924368eaec87be1af21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b770d1a6b36869e2160e2bf5c247e65 = $(`<div id="html_2b770d1a6b36869e2160e2bf5c247e65" style="width: 100.0%; height: 100.0%;">Saint-Jean-du-Gard<br><b>Date estimée :</b> 07 Jul 2024<br>Temp. min: 20.0°C<br>Temp. max: 34.0°C</div>`)[0];
+            popup_25f7696e18de7924368eaec87be1af21.setContent(html_2b770d1a6b36869e2160e2bf5c247e65);
+        
+
+        marker_7275da9782232e9c4c2819915a199b98.bindPopup(popup_25f7696e18de7924368eaec87be1af21)
+        ;
+
+        
+    
+    
+            var marker_1012fe048a652eee4dde1d7b80d0bc28 = L.marker(
+                [44.0542, 3.9814],
+                {}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+    
+            var beautify_icon_1a18375e616412a94965619c7a7b5a7e = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": false, "spin": false, "textColor": "#000"}
+            )
+            marker_1012fe048a652eee4dde1d7b80d0bc28.setIcon(beautify_icon_1a18375e616412a94965619c7a7b5a7e);
+        
+    
+        var popup_28d46d0374235efd797fa9e2d8a9516b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e9d14d018f01f6092f936e08c3c8c61 = $(`<div id="html_2e9d14d018f01f6092f936e08c3c8c61" style="width: 100.0%; height: 100.0%;">Anduze<br><b>Date estimée :</b> 08 Jul 2024<br>Temp. min: 21.0°C<br>Temp. max: 36.0°C</div>`)[0];
+            popup_28d46d0374235efd797fa9e2d8a9516b.setContent(html_2e9d14d018f01f6092f936e08c3c8c61);
+        
+
+        marker_1012fe048a652eee4dde1d7b80d0bc28.bindPopup(popup_28d46d0374235efd797fa9e2d8a9516b)
+        ;
+
+        
+    
+    
+            var poly_line_2f40f46f6a6b79542db5b8e385a49511 = L.polyline(
+                [[45.0449, 3.885], [44.9336, 4.0503], [44.8444, 3.9114], [44.7336, 3.8892], [44.6742, 3.7503], [44.65, 3.7167], [44.6242, 3.7217], [44.4836, 3.7506], [44.3653, 3.7417], [44.3331, 3.645], [44.3244, 3.6533], [44.2022, 3.8433], [44.1047, 3.8792], [44.0542, 3.9814]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_2bdfc0137d99568440738cc6ddb32837);
+        
+</script>
+</html>
